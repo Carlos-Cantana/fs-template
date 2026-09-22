@@ -1,0 +1,3 @@
+# Всё, что импортирует selector.py. Базовая установка venv даёт только
+# pyarrow/PyYAML/loguru/orjson — pandas и прочее должно быть здесь.
+pandas==2.3.3

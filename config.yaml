@@ -1,0 +1,11 @@
+# Версия Python для venv селектора (обязательное поле)
+python_version: "3.12"
+
+# Имя класса в selector.py (опционально, по умолчанию FeatureSelector)
+selector_class: "FeatureSelector"
+
+# Прокидываются в конструктор селектора
+params:
+  max_missing_rate: 0.5   # максимум доли пропусков в фиче
+  min_variance: 1e-6      # минимум вариации фичи
+  top_k: 50               # сколько фич оставить в middle list
